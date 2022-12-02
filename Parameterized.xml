@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+ 
+  <parameter name="Day1" value="JAVA"></parameter>
+  <parameter name="Day2" value="SELENIUM"></parameter>
+   <parameter name="Day3" value="PROJECT"></parameter>
+ 
+ 
+  <parameter name="Name" value="Bose"></parameter>
+  <parameter name="Age" value="21"></parameter>
+   <parameter name="Degree" value="BCA"></parameter>
+   
+  
+   <classes>
+      <class name="com.TestNG_Features.ParameterizedTest">
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
